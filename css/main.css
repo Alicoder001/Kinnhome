@@ -73,6 +73,9 @@ a {
   color: #56593d;
   text-transform: uppercase;
 }
+.nav_lnnk:hover {
+  color: aqua;
+}
 .logos {
   display: flex;
   gap: 2rem;
@@ -358,6 +361,9 @@ a {
 .icon {
   margin-left: 1.4rem;
 }
+.icon:hover{
+  fill: aqua;
+}
 .copyright {
   margin-bottom: 1.5rem;
 }
@@ -380,6 +386,9 @@ a {
   color: #ffffef;
   display: inline-block;
   text-transform: uppercase;
+}
+.block_link:hover {
+  color: aqua;
 }
 
 /* RETINA */

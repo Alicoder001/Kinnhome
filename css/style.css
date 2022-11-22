@@ -1,0 +1,351 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  @font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jost-v14-latin-regular.eot');
+    src: local(''), url('../fonts/jost-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/jost-v14-latin-regular.woff2') format('woff2'), url('../fonts/jost-v14-latin-regular.woff') format('woff');
+}
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Roboto';
+    height: 100%;
+    font-size: 62.5%;
+}
+body{
+    width: 100%;
+    color: #56593D;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto ;
+    padding: 0 30px;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-mini{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.navbar-btn {
+    width: 104px;
+    height: 58px;
+    border: none;
+    background-color: white;
+}
+.nav-list {
+    display: flex;
+}
+.nav-item:not(:last-child) {
+    margin-right: 38px;
+}
+.nav-link {
+    font-family: 'Roboto';
+    color: #56593D;
+}
+.nav-icon-item:not(:last-child) {
+    margin-right: 20px;
+}
+.nav-icon-list{
+    display: flex;
+}
+.hero-img{
+    margin-left: 134px;
+}
+/* MAIN */
+
+.main-section-mini{
+    width: 1300px;
+    height: 750px;
+    background-image: url(../images/png/Rectangle-9.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 800px;
+    padding-bottom: 50px;
+    margin-top: 60px;
+    border: 16px solid #FFFFEF;
+    text-align: right;
+}
+.main-section-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.main-section-subtitle {
+    width: 439px;
+    height: 61px;
+    font-size: 4.5rem;
+    font-weight: 400;
+    line-height: 6rem;
+}
+.main-section-btn {
+    width: 154px;
+    height: 56px;
+    color: #FFFFEF;
+    background-color: #56593D;
+    border: none;
+    margin-left: 300
+    
+    0px;
+}
+/* section 2 */
+.section2-text{
+    font-weight: 400;
+    font-size: 5.7rem;
+    line-height: 81px;
+    text-align: center;
+}
+.section2-links{
+    display: flex;
+    justify-content: center;
+}
+.section2-link{
+    margin-right: 100px;
+    color: #56593D;
+    font-style: 1.6rem;
+    text-decoration: underline;
+    letter-spacing: 1.6px;
+}
+/* section 3 */
+
+.section3{
+    margin-top: 90px;
+    background-color: #FFFFEF;
+    padding: 80px 32px;
+}
+.section3-list{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-right: 30px;
+    gap: 30px;
+}
+.section3-item{
+    text-align: center;
+}
+.section3-title{
+    font-style: 1rem;
+    color: #56593D;
+}
+.section3-text{
+    font-size: 1.6rem;
+}
+.section3-titlee{
+    font-size: 3.4rem;
+    color: #56593D;
+    font-weight: 400;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+/* section 4 */
+
+.section4{
+    background-image: url(../images/png/Rectangle-4.png);
+    height: 700px;
+    text-align: center;
+    padding-top: 62px;                           
+}
+.section5-text{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #56593D;
+}
+.section4-title{
+    width: 1093px;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-left: 80px;
+}
+
+/* section 5 */
+
+.section5{
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #FFFFEF;
+    padding: 64px 32px;
+}
+.section5-title{
+    font-weight: 400;
+    font-size: 2.9rem;
+}
+.section5-hr{
+    width: 40px;
+    height: 1px;
+    background-color: #56593D;
+    border: none;
+
+}
+.section5-text{
+    width: 344px;
+    height: 227px;
+    font-size: 2rem;
+    font-family: 'Jost';
+    line-height: 3.2rem;
+}
+.section5-mini{
+    text-align: center;
+    margin-top: 100px;
+}
+/* section 7 */
+.section7 {
+    background-color: #FFFFEF;
+    text-align: center;
+    height: 279px;
+    padding: 63px 0;
+    margin-top: 40px;
+}
+.section7-title {
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 18.8px;
+}
+.section7-txt {
+    font-size: 1.7rem;
+    padding-top: -20px;
+}
+.section7-input {
+    width: 339px;
+    border: none;
+    border-bottom: 1px solid #56593D;
+    background-color: #FFFFEF;
+}
+.section7-btn {
+    width: 144px;
+    height: 22px;
+    background-color: #56593D;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 17px;
+}
+/* section 8 */
+.section8{
+    margin-top: 40px;
+    padding: 64px 32px;
+    background-color: #FFFFEF;
+}
+.section8-list{
+    display: flex;
+}
+.section8-item:not(:last-child){
+    margin-right: 8px;
+    
+}
+.section8-title{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* footer */
+footer{
+    color: white;
+    background-color: #56593D;
+    padding: 64px 0;
+}
+.footer-mini{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-hr{
+    width: 40px;
+    height: 1px;
+    border: none;
+    background-color: #FFFFEF;
+    margin: 0;
+    margin-bottom: 17px;
+}
+.footer-link{
+    color: #FFFFEF;
+    font-size: 1.6rem;
+    margin-top: 16px;
+}
+.footer-link-title{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.footer-icons{
+    margin-top: -70px;
+}
+.footer-text{
+    font-size: 1.5rem;
+}
+.footer-text2{
+    width: 250px;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+   
+    .main-section-mini{
+        background-image: url(../images/png/Rectangle@2x-9.png);
+    }
+    .section4{
+    background-image: url(../images/png/Rectangle-4@2x.png);
+}
+
+}
